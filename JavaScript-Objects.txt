@@ -1,0 +1,28 @@
+GUVI FSD61WD-T Day 2 Task – SARASRAMAN
+
+Objects in JavaScript
+
+What is a JavaScript Object:
+	“An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method”. This means that an object contains several key-value pairs where the key is used to access its respective value placed inside the objects. Objects are reference types where the assignment of an object to a variable reference the memory location of the object not the object itself.
+
+Creation:
+
+	An object in JavaScript can be created using curly braces {} which is known as object literals.
+
+		var obj = { 
+		    propertyName: value1,
+		    2: value2;
+		    “property name”: value3,
+		} 
+
+	As shown above the property name or the key could be a name or number or string literals. More over every data-type in JavaScript is an object like Array, function and primitive data types like Number, String.
+    
+	Since JavaScript has a prototype inheritance model where other programming languages like Java has class. This is one of the differences between Java and JavaScript. In JavaScript the Object protype is the top-level member of the tree and every object is connected to the Object prototype.
+
+Accessing Properties:
+
+	The properties of the object can be accessed using the property name (key) as by writing the name of the object followed by a dot or period (.) and the property name. There is also another syntax for accessing the property by using square brackets ([]) as object name and the property name is written inside the opening and closing square braces.
+
+		Object_name.property_name; (for accessing and setting value)
+		object_name[property_name]; (for accessing and setting value)
+
